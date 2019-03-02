@@ -23,9 +23,8 @@ My Home Assistant is Hass.io running on a Raspberry Pi 3B+ with an Aotec Z-Stick
   * Philips Hue Iris
   * [Philips Hue Tap](https://www.amazon.com/Philips-Hue-Batteries-Installation-Free-Exclusively/dp/B079P5H2WG/)
   * [Philips Hue Dimmer](https://www.amazon.com/Philips-Dimmer-Switch-Installation-Free-Exclusively/dp/B076MGKTGS/)
-* Switches
-  * [Wemo Mini Smart Plug](https://www.amazon.com/gp/product/B01NBI0A6R/)
 * Voice Assistants
+  * Using [Nabu Casa / Home Assistant Cloud](https://www.nabucasa.com/)
   * Google Home mini (x4)
   * Google Home
   * Google Home Hub
@@ -35,7 +34,10 @@ My Home Assistant is Hass.io running on a Raspberry Pi 3B+ with an Aotec Z-Stick
   * Mounts:
     * [Dot Genie Google Home Mount](https://www.amazon.com/gp/product/B078JNBMDG/)
     * [Dot Genie Outlet Cover Plate Mount for Echo Dot 2nd Gen](https://www.amazon.com/gp/product/B0785FY482/) (x2)
+* Switches
+  * [Wemo Mini Smart Plug](https://www.amazon.com/gp/product/B01NBI0A6R/)
 * Other Hardware
+  * Logitech Harmony Ultimate Home Remote (x2)
   * Logitech Harmony Hub (x3)
   * [Withings WS-50 Body Scale](https://www.amazon.com/gp/product/B00BKRQ4E8/)
   * [Withings Sleep bed sensor](https://www.amazon.com/Withings-Nokia-Sleep-Temperature-Compatible/dp/B078Z1B34S)
