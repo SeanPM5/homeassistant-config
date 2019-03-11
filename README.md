@@ -15,7 +15,7 @@ My Home Assistant is Hass.io running on a Raspberry Pi 3B+ with an Aotec Z-Stick
   * [Raspberry Pi 3 B+](https://www.amazon.com/dp/B07BDR5PDW/)
   * [CanaKit 5V 2.5A Raspberry Pi 3 B+ Power Supply](https://www.amazon.com/CanaKit-Raspberry-Supply-Adapter-Listed/dp/B00MARDJZ4/)
   * [Samsung 64GB 100MB/s (U3) MicroSD](https://www.amazon.com/gp/product/B06XX29S9Q/)
-  * [Aeotec Z-Stick Gen5](https://www.amazon.com/Aeotec-Z-Stick-Z-Wave-create-gateway/dp/B00X0AWA6E/)
+  * [Aeotec Z-Stick Gen5](https://www.amazon.com/Aeotec-Z-Stick-Z-Wave-create-gateway/dp/B00X0AWA6E/) for Z-Wave control
 * Lights
   * Philips Hue A19 Color Light Bulbs (x5)
   * [Philips Hue Light Strips](https://www.amazon.com/gp/product/B0167H33DU/) (x5)
@@ -47,9 +47,10 @@ My Home Assistant is Hass.io running on a Raspberry Pi 3B+ with an Aotec Z-Stick
 
 # Presence
 Using a bayesian binary sensor with the following services:
-* HomeKit
+* [HomeKit](https://www.home-assistant.io/components/homekit/)
 * [HomeAssistant iOS Companion App](https://itunes.apple.com/us/app/home-assistant-companion/id1099568401)
 * [Life360 custom_component](https://community.home-assistant.io/t/life360-device-tracker-platform/52406)
+* [Geofency](https://www.home-assistant.io/components/geofency/)
 * Bluetooth
 
 # Automations
