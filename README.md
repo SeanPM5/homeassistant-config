@@ -1,16 +1,13 @@
 # Home Assistant Configuration
+
+## Overview
 [Home Assistant](http://homeassistant.io) configuration files.
 
-* [Hardware](#hardware)
-* [Presence Detection](#presence)
-* [Automations](#automations)
-* [Screenshots](#screenshots)
-
-I will be sharing my Home Assistant configuration here once I become more comfortable using GitHub.
+I'll be sharing my Home Assistant configuration files here once I finish organizing it and become more comfortable using GitHub (don't want to make any mistakes accidentally uploading sensitive information). At the moment I'm mostly using this to brainstorm future ideas and enhancements on my [issues](https://github.com/SeanPM5/homeassistant-config/issues) page.
 
 My Home Assistant is Hass.io running on a Raspberry Pi 3B+ with an Aotec Z-Stick.
 
-# Hardware
+## Hardware
 * System
   * [Raspberry Pi 3 B+](https://www.amazon.com/dp/B07BDR5PDW/)
   * [CanaKit 5V 2.5A Raspberry Pi 3 B+ Power Supply](https://www.amazon.com/CanaKit-Raspberry-Supply-Adapter-Listed/dp/B00MARDJZ4/)
@@ -45,7 +42,7 @@ My Home Assistant is Hass.io running on a Raspberry Pi 3B+ with an Aotec Z-Stick
   * [iBeacons](https://www.amazon.com/gp/product/B019G0VVZC/) (x5)
   * Door sensors
 
-# Presence
+## Presence
 Using a bayesian binary sensor with the following services:
 * [HomeKit](https://www.home-assistant.io/components/homekit/)
 * [HomeAssistant iOS Companion App](https://itunes.apple.com/us/app/home-assistant-companion/id1099568401)
@@ -53,7 +50,7 @@ Using a bayesian binary sensor with the following services:
 * [Geofency](https://www.home-assistant.io/components/geofency/)
 * Bluetooth
 
-# Automations
+## Automations
 * IFTTT Integration
   * Withings weigh-in reminders
 * Lights
@@ -70,5 +67,15 @@ Using a bayesian binary sensor with the following services:
   * Shower mode that plays radio while in shower
   * Exercise mode that starts the fan and a Spotify workout playlist with a 30 min timer
 
-# Screenshots
+## Aspirations
+These are some of the high level goals that I try to keep in mind with my setup.
+* Minimize user interaction as much as possible. The best automations are ones you don't even think about.  
+* User interface - I strive to keep a good balance between "minimal" and "powerful" UI by making extensive use of [Lovelace conditional cards](https://www.home-assistant.io/lovelace/conditional/). Everything should be accessible in 3 clicks or less, with as little scrolling as possible. Mobile UI is very important too. 
+* Hardware - Always prefer local devices when possible.
+* Backups - I cannot stress enough how important it is to maintain backups. SD cards can and will fail, and you don't want to lose all your hard work (I learned that the hard way). Connect your HA system to a UPS too, they are cheap now. 
+
+## Screenshots
 Coming soon.
+
+## Documentation
+I hope to provide extensive documentation both as readme files in every directory and at the [wiki](https://github.com/SeanPM5/homeassistant-config/wiki). If you have a question about my setup you can open an issue or hit me up on the Home Assistant Discord server - my username there is __Sean__#2149. 
