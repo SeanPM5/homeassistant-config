@@ -1,3 +1,7 @@
+  <img src="https://img.shields.io/badge/HA--Version-0.92.0-brightgreen.svg"/> <img src="https://img.shields.io/maintenance/yes/2019.svg"/>
+
+<img src="https://img.shields.io/github/commit-activity/y/SeanPM5/homeassistant-config.svg"/> <img src="https://img.shields.io/github/last-commit/SeanPM5/homeassistant-config.svg?style=plasticr"/> <img src="https://img.shields.io/github/issues/SeanPM5/homeassistant-config.svg"/>
+
 # Home Assistant Configuration
 
 ## Overview
